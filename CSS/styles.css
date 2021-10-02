@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;    
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(96, 94, 94);
+  background-color: rgb(220, 241, 247);
+}
+
+header {
+  background-color: rgb(177, 227, 242); 
+  padding: 0.5rem 0.5rem 1rem 0.5rem;
+}
+
+main {
+  text-align: center; 
+  padding-bottom: 2rem;
+}
+
+span {
+    color: rgb(67, 65, 65);
+}
+
+a {
+  text-decoration: none; 
+  color: rgb(96, 94, 94); 
+}
+a:hover {
+  text-decoration: underline;    
+}
+
+
+/* id selectors */
+#home {
+  padding: 2rem 0; 
+}
+
+#portfolio {
+  background-color: rgb(247, 245, 241);
+}
+
+/* class selectors */
+.header {
+  font-family: 'Stick No Bills', sans-serif;    
+  padding-bottom: 1.5rem;
+} 
+
+.name {
+  font-size: 2rem;    
+}
+
+/* Media Queries */
+@media screen and (min-width:320px) { 
+
+  #portfolio {
+    padding: 2rem 0;        
+  }
+    
+  .img-student {
+    width: 70%;
+  }
+  .img-portfolio {
+    width: 90%;    
+  }
+
+  .nav {
+    flex-wrap: wrap; 
+    padding: 1rem 0;    
+  }
+  .name {
+    padding-bottom: 1.5rem;    
+  }
+  .item {
+    background-color: rgb(247, 245, 241);     
+    padding: 0.5rem 2rem;
+  }  
+}
