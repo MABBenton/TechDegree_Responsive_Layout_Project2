@@ -9,17 +9,21 @@
 
 .item { 
   flex-grow: 1;  
-  margin: 0 0.5rem;
 }
 
-.item-2, .item-3, .item-4, .item-5 {
-  margin-bottom: 5px;
+.home {
+  display: flex;
+  justify-content: space-around;
 }
 
 .portfolio {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;  
+  flex-wrap: wrap; 
+  justify-content: space-around;
+}
+
+.portfolio-item {
+  align-self: center;
 }
 
 .footer {

@@ -9,7 +9,7 @@ body {
 
 header {
   background-color: rgb(177, 227, 242); 
-  padding: 0.5rem 0.5rem 1rem 0.5rem;
+  padding: 0.5rem 0 1rem 0;
 }
 
 nav {
@@ -31,13 +31,10 @@ h3 {
   margin-bottom: 0;    
 }
 
-p {
-  margin: 0.8rem 0.5rem 2rem 0.5rem;    
-}
-
 span {
     color: rgb(67, 65, 65);
     font-weight: bold;
+    padding-left: 1rem;
 }
 
 a {
@@ -50,14 +47,24 @@ a:hover {
 
 footer {
   font-weight: bolder; 
-  margin-bottom: 0;   
+  margin-bottom: 2rem; 
+  padding-top: 1.2rem; 
+  border-top: 1px solid rgb(167, 164, 164); 
 }
+
 /* id selectors */
 
 #portfolio {
   background-color: rgb(247, 245, 241);
 }
 
+#skills {
+  padding-bottom: 1rem;
+}
+
+#contact {
+  padding-bottom: 2rem;
+}
 
 /* class selectors */
 .header {
@@ -73,15 +80,27 @@ footer {
   color: rgb(78, 69, 242);
 }
 
+.skills-list {
+  padding-left: 0;
+}
+
+.skills-list li {
+  padding-bottom: 0.5rem;
+}
+
 .contact-info {
   margin-bottom: 1rem;  
+}
+
+.footer {
+  font-weight: bolder;
 }
 
 /* Media Queries */
 @media screen and (min-width:320px) { 
 
   #portfolio {
-    padding: 0.1rem 0 1.2rem 0;        
+    padding: 0.1rem 0 1.2rem 0;      
   }
 
   #home {
@@ -92,23 +111,30 @@ footer {
     margin-bottom: 2rem;    
   }
 
+  .home {
+    flex-wrap: wrap;
+  }
+
   .img-student {
     width: 65%;
     padding-bottom: 1rem;
+    padding-right: 0.5rem;
   }
   .img-portfolio {
     width: 95%;    
   }
 
   .nav {
+    flex-direction: column;
     text-align: center;
     padding: 1rem 0;    
-    flex-direction: column;
   }
   
   .item {
     background-color: rgb(247, 245, 241);     
     padding: 0.5rem 2rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
   }  
 
   .item-1 {
@@ -116,18 +142,29 @@ footer {
     background-color: rgb(177, 227, 242)   
   }
 
+  .item-2, .item-3, .item-4 {
+    margin-bottom: 0.3rem;
+  }
+
+  .intro-text, .portfolio-text {
+    margin: 0.8rem 0.5rem 2rem 0.5rem;
+  }
+
   header, #home {
     background-color: rgb(177, 227, 242);    
   }
 
-  .portfolion {
-    flex-direction: column;    
+  .footer-item3, .footer-item4, .footer-item5, .footer-item6 {
+    display: none;
   }
 }
 
+
 @media screen and (min-width:768px) {
+
   .nav {
-    flex-direction: row;   
+    flex-direction: row;  
+    justify-content: space-between;
   }
 
   .item {
@@ -138,5 +175,79 @@ footer {
     flex-basis: 768px;   
   }
 
+  .item-2 {
+    margin-left: 160px;
+    padding: 8px 0;
+  }
+
+  .item-3, .item-4 {
+    padding: 8px 0;
+  }
+
+  .item-5 {
+    margin-right: 160px;
+    padding: 8px 0;
+  }
+
+  #home {
+    padding: 4% 0 8% 0;
+  }
+
+  .home {
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+  }
+
+  .img-student {
+    width: 40%;
+  }
+
+  .intro-text {
+    font-size: 1.3rem; 
+    text-align: left;
+    margin-top: 0;
+    margin-left: 13px;
+  }  
+
+  .header {
+    flex-basis: 768px;
+  }
+
+  .portfolio-item {
+    width: 50%;
+  }
   
+  article p {
+    padding: 0 2rem 2rem 2rem;
+  }
+
+  .skills-list, .contact-text, .contact-info {
+    font-size: 1.3rem;
+  }
+
+  .contact-text {
+    padding: 0 5rem 1rem;
+  }
+
+  .footer-item1 {
+    margin-right: auto;
+  }
+
+  .footer-item2 {
+    display: none;
+  }
+
+  .footer-item3, .footer-item4, .footer-item5, .footer-item6 {
+    display: block;
+  }
+
+  .footer-item3, .footer-item4, .footer-item5 {
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (min-width:1024px) {
+
+
+
 }

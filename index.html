@@ -27,48 +27,54 @@
     </header>
 
     <main>
-      <section id="home">
-        <img class="img-student" src="./images/responsive-layout-profile.png" alt="Picture of a person.">  
-        <p class="intro-text">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>    
+      <section id="home" class="home">
+        <img class="img-student home-item" src="./images/responsive-layout-profile.png" alt="Picture of a person.">  
+        <p class="intro-text home-item">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>    
       </section>
 
       <section id="portfolio" class="portfolio">
-        <h2 class="header">PORTFOLIO</h2>
-        <article class="marketing-page">
+        <h2 class="header portfolio-item">PORTFOLIO</h2>
+
+        <article class="marketing-page portfolio-item">
           <img class="img-portfolio" src="./images/portfolio-1.png" alt="Picture of a marketing website.">  
           <h3>Marketing Page</h3>
-          <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p> 
+          <p class="portfolio-text">This project shows the front page of a marketing website meant for a specific business I'm interested in.</p> 
         </article>
-        <article class="search-page">
+
+        <article class="search-page portfolio-item">
           <img class="img-portfolio" src="./images/portfolio-2.png" alt="Picture of a search page.">
           <h3>Search Page</h3>
-          <p>This project searches through a specific database to find information that the user is trying to look up.</p>    
+          <p class="portfolio-text">This project searches through a specific database to find information that the user is trying to look up.</p>    
         </article>
-        <article class="travel-app">
+
+        <article class="travel-app portfolio-item">
           <img class="img-portfolio" src="./images/portfolio-3.png" alt="Picture of a travel app.">
           <h3>Travel App</h3>
-          <p>This project compares travel times based on different transportation methods and tells you the best one.</p>    
+          <p class="portfolio-text">This project compares travel times based on different transportation methods and tells you the best one.</p>    
         </article>
-        <article class="favorite-spots">
+
+        <article class="favorite-spots portfolio-item">
           <img class="img-portfolio" src="./images/portfolio-4.png" alt="Picture of a map website.">
           <h3>Map of Favorite Spots</h3>
-          <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>    
+          <p class="portfolio-text">This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>    
         </article>
-        <article class="photo-gallery">
+
+        <article class="photo-gallery portfolio-item">
           <img class="img-portfolio" src="./images/portfolio-5.png" alt="Picture of a photo gallery website.">
           <h3>Photo Gallery</h3>
-          <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>    
+          <p class="portfolio-text">This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>    
         </article>
-        <article class="calculator">
+
+        <article class="calculator portfolio-item">
           <img class="img-portfolio" src="./images/portfolio-6.png" alt="Picture of a calculator website.">
           <h3>Calculator</h3> 
-          <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>   
+          <p class="portfolio-text">Someone can enter in the numbers they want, and press the big blue button and get the result.</p>   
         </article>
       </section>
 
       <section id="skills">
         <h2 class="header">SKILLS</h2>
-        <ul>
+        <ul class="skills-list">
           <li>Flame Dancer</li>
           <li>Plate Spinner</li>
           <li>Elephant Rider</li>
@@ -79,16 +85,19 @@
 
       <section id="contact">
         <h2 class="header">CONTACT</h2>    
-        <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+        <p class="contact-text">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
         <p class="contact-info">Phone <span>+1 (111) 555-1234</span></p>
         <p class="contact-info">Email <span>email@yoursite.com</span></p>
       </section>
     </main>
 
-    <hr>
     <footer class="footer">
-      <p class="footer-item">Student Name</p>
-      <p class="footer-item"><a href="#top">BACK TO TOP</a></p>
+      <p class="footer-item footer-item1">Student Name</p>
+      <p class="footer-item footer-item2"><a href="#top">BACK TO TOP</a></p>
+      <p class="footer-item footer-item3"><a href="#home">HOME</a></p>
+      <p class="footer-item footer-item4"><a href="#portfolio">PORTFOLIO</a></p>
+      <p class="footer-item footer-item5"><a href="#skills">SKILLS</a></p>
+      <p class="footer-item footer-item6"><a href="#contact">CONTACT</a></p>
     </footer>
   </body>    
 </html>
