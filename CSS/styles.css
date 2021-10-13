@@ -63,7 +63,7 @@ footer {
 }
 
 #contact {
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 /* class selectors */
@@ -142,7 +142,7 @@ footer {
     background-color: rgb(177, 227, 242)   
   }
 
-  .item-2, .item-3, .item-4 {
+  .item-2, .item-3, .item-4, .item-5 {
     margin-bottom: 0.3rem;
   }
 
@@ -226,11 +226,12 @@ footer {
   }
 
   .contact-text {
-    padding: 0 5rem 1rem;
+    padding: 0 6rem 1.7rem 6rem;
   }
 
   .footer-item1 {
     margin-right: auto;
+    padding-left: 0.8rem;
   }
 
   .footer-item2 {
@@ -243,6 +244,10 @@ footer {
 
   .footer-item3, .footer-item4, .footer-item5 {
     padding-right: 1rem;
+  }
+
+  .footer-item6 {
+    padding-right: 0.8rem;
   }
 }
 
