@@ -153,6 +153,10 @@ footer {
     background-color: rgb(177, 227, 242);    
   }
 
+  .contact-text {
+    margin: 0 3% 10%;
+  } 
+
   .footer-item3, .footer-item4, .footer-item5, .footer-item6 {
     display: none;
   }
