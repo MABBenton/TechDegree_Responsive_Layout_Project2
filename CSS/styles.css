@@ -146,7 +146,7 @@ footer {
   }
 
   .intro-text, .portfolio-text {
-    margin: 0.8rem 0.5rem 2rem 0.5rem;
+    margin: 0.8rem 0.5rem 3rem 0.5rem;
   }
 
   header, #home {
@@ -228,7 +228,8 @@ footer {
   }
 
   .contact-text {
-    padding: 0 6rem 1.7rem 6rem;
+    padding: 0 5rem;
+    margin-bottom: 3rem;
   }
 
   .footer-item1 {
@@ -301,7 +302,7 @@ footer {
   }  
 
   .contact-text {
-    padding: 0 14rem 1.7rem 14rem;
+    padding: 0 10rem 0.5rem 10rem;
   }
 
 }  
