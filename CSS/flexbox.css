@@ -1,14 +1,9 @@
 .nav {
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(177, 227, 242);
   justify-content: space-around;
   list-style-type: none;
   margin: 0 auto;
-}
-
-.item { 
-  flex-grow: 1;  
 }
 
 .home {

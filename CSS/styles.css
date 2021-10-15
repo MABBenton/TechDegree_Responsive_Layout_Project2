@@ -8,7 +8,6 @@ body {
 }
 
 header {
-  background-color: rgb(177, 227, 242); 
   padding: 0.5rem 0 1rem 0;
 }
 
@@ -47,14 +46,14 @@ a:hover {
 
 footer {
   font-weight: bolder; 
-  margin-bottom: 2rem; 
+  margin: 0 5% 2rem 5%; 
   padding-top: 1.2rem; 
   border-top: 1px solid rgb(167, 164, 164); 
 }
 
 /* id selectors */
 
-#portfolio {
+.portfolio {
   background-color: rgb(247, 245, 241);
 }
 
@@ -99,7 +98,7 @@ footer {
 /* Media Queries */
 @media screen and (min-width:320px) { 
 
-  #portfolio {
+  .portfolio {
     padding: 0.1rem 0 1.2rem 0;      
   }
 
@@ -164,7 +163,6 @@ footer {
 
   .nav {
     flex-direction: row;  
-    justify-content: space-between;
   }
 
   .item {
@@ -231,7 +229,6 @@ footer {
 
   .footer-item1 {
     margin-right: auto;
-    padding-left: 0.8rem;
   }
 
   .footer-item2 {
@@ -243,16 +240,64 @@ footer {
   }
 
   .footer-item3, .footer-item4, .footer-item5 {
-    padding-right: 1rem;
-  }
-
-  .footer-item6 {
-    padding-right: 0.8rem;
+    padding-right: 2rem;
   }
 }
+
 
 @media screen and (min-width:1024px) {
+  .nav {
+    padding-bottom: 2rem;
+  }
+  
+  .item-1 {
+    flex-basis: 0;
+    margin: 1.5rem auto 0 2rem;
+    padding: 0;
+    min-width: 200px;
+  }
+  
+  .item-2, .item-3, .item-4 {
+    margin: 1.5rem 0.8rem 0 1.5rem;
+    padding: 0;
+  }
 
+  .item-5 {
+    margin: 1.5rem 2rem 0 1.5rem;
+    padding: 0;
+  }  
 
+  #home, #top, .item {
+    background-color: rgb(220, 241, 247);
+  }  
 
-}
+  #home {
+    padding: 0 1.7rem 3rem 1.7rem;
+  }
+
+  .intro-text {
+    padding-right: 2.5rem;
+  }
+
+  .portfolio {
+    padding: 1rem;
+    margin: 0 1rem;
+  }
+  
+  .header, .skills-list {
+    min-width: 1024px;
+  }
+
+  .portfolio-item {
+    max-width: 33%;
+  }
+
+  article p {
+    padding: 0 0.3rem 2rem 0.3rem;
+  }  
+
+  .contact-text {
+    padding: 0 14rem 1.7rem 14rem;
+  }
+
+}  
